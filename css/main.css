@@ -141,6 +141,10 @@ header {
   position: relative;
 }
 
+img.logo-image {
+  width: 50%;
+}
+
 nav {
   margin-right: 70px;
   -webkit-transition: all 0.3s ease 0s;
@@ -259,13 +263,13 @@ body:after {
 .single-feature .icon:after, .single-generic-feature .icon:after, 
 .news-area, .news-area-2, .footer-widget-area, .single-widget 
 .icon:after, .footer-social a:after {
-  background-image: -moz-linear-gradient(135deg, #49e3ce 0%, #9920ed 100%);
-  background-image: -webkit-linear-gradient(135deg, #49e3ce 0%, #9920ed 100%);
-  background-image: -ms-linear-gradient(135deg, #49e3ce 0%, #9920ed 100%);
+  background-image: -moz-linear-gradient(135deg, #4164f4 0%, #42f4c2 100%);
+  background-image: -webkit-linear-gradient(135deg, #4164f4 0%, #42f4c2 100%);
+  background-image: -ms-linear-gradient(135deg, #4164f4 0%, #42f4c2 100%);
 }
 
 .single-feature .icon span, .single-generic-feature .icon span {
-  background: -webkit-linear-gradient(0deg, #9920ed, #49e3ce);
+  background: -webkit-linear-gradient(0deg,#42f4c2, #4164f4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
